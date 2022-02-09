@@ -8,7 +8,7 @@ const initialState = {
   status: StatusFilters.All,
   colors: [],
 }
-
+// Reducer always returns the state for this reducer
 export default function filtersReducer(state = initialState, action) {
   switch (action.type) {
     case 'filters/statusFilterChanged': {
