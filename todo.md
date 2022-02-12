@@ -1,2 +1,3 @@
-TodoListItem gets it self from the store using its
-Need to apply status filter in TodoList
+Make wider when mobile size
+Add a description of the app to App.js
+Put up on github

@@ -15,6 +15,7 @@ const getTodosFilterOnStatus = (arTodos, statusFilter) => {
       return filteredTodos
     }
   }
+  // ELSE no filter
   return arTodos
 }
 
@@ -36,6 +37,7 @@ const getTodosFilterOnColor = (arTodos, arColorFilters) => {
     })
     return filteredTodos
   }
+  // ELSE no filters
   return arTodos
 }
 
