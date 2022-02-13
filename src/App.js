@@ -17,16 +17,13 @@ function App() {
     <div className="App">
       <nav>
         <section>
-          <h1>Redux Fundamentals Example</h1>
+          <h1>Redux Todos Example</h1>
         </section>
       </nav>
       <main>
-        <section
-          style={{ border: '2px solid red', width: '90%' }}
-          className="medium-container"
-        >
-          <h2>Todos</h2>
-          <div style={{ border: '2px solid red' }} className="todoapp">
+        <section className="medium-container">
+          <h2>-- Todos --</h2>
+          <div className="todoapp">
             <Header />
             <TodoList />
             <Footer />

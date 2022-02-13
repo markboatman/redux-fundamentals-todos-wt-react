@@ -60,6 +60,7 @@ nav {
   display: flex;
   padding: 0;
   background: var(--redux-color);
+  text-align: center;
 }
 
 nav section {
@@ -74,7 +75,11 @@ nav section {
 /* Main content */
 
 section {
-  max-width: 800px;
+  width: 90%;
+  border: 3px solid var(--redux-color);
+  /* border-right: 3px solid var(--redux-color);
+  border-bottom: 3px solid var(--redux-color); */
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1.5rem;
@@ -203,10 +208,10 @@ main h1,
 main h2 {
   width: 100%;
   font-size: 50px;
-  font-weight: 200;
+  font-weight: bolder;
   text-align: center;
-  color: #b83f45;
-  margin-top: 0;
+  color: #1976d2;
+  margin-top: 0.3em;
   -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
@@ -222,7 +227,7 @@ main h2 {
 
 .todoapp {
   background: #fff;
-  min-width: 800px;
+  min-width: 620px;
   position: relative;
   display: flex;
   text-align: left;
