@@ -9,7 +9,7 @@ const RemainingTodos = ({ count }) => {
 
   return (
     <div className="todo-count">
-      <h5>Remainieng Todos</h5>
+      <h5>Remaining Todos</h5>
       <strong>{count}</strong> item{suffix} left
     </div>
   )
