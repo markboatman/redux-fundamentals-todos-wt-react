@@ -7,10 +7,10 @@
   persistence of state.todos[] using browser localStorage
  */
 import React from 'react'
-
 import Header from './features/header/Header'
 import TodoList from './features/todos/TodoList'
 import Footer from './features/footer/Footer'
+import AboutModal from './features/modals/AboutModal'
 
 function App() {
   return (
@@ -18,6 +18,8 @@ function App() {
       <nav>
         <section>
           <h1>Redux Todos Example</h1>
+          {/* <a style={{ color: 'white' }}>About this app</a> */}
+          <AboutModal />
         </section>
       </nav>
       <main>
