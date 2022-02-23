@@ -1,19 +1,8 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal'
-// import './ModalNpm.css';
 
-// const customStyles = {
-//   content: {
-//     top: '50%',
-//     left: '50%',
-//     right: 'auto',
-//     bottom: 'auto',
-//     marginRight: '-50%',
-//     transform: 'translate(-50%, -50%)',
-//   },
-// };
-
-// Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
+// Make sure to bind modal to your appElement
+// (https://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement(document.getElementById('root'))
 
 function AboutModal() {
@@ -35,7 +24,9 @@ function AboutModal() {
 
   return (
     <div>
-      <button onClick={openModal}>About This App</button>
+      <button style={{ borderBottom: '2px solid white' }} onClick={openModal}>
+        About This App
+      </button>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -63,7 +54,10 @@ function AboutModal() {
         >
           Todos App, a rudux example.
         </h2>
-        <button style={{ width: '7em' }} onClick={closeModal}>
+        <button
+          style={{ width: '7em', backgroundColor: '#1976d2', color: 'white' }}
+          onClick={closeModal}
+        >
           Close
         </button>
         <p>
@@ -74,13 +68,14 @@ function AboutModal() {
           Filtering for the view on todos is done in TodoList.js.
         </p>
         <p>
-          This is a create-react-app that uses redux, react-redux and the
+          This app is a create-react-app that uses redux, react-redux and the
           redux-devtools-extension for browser devtools debugging.
         </p>
         <p>
-          This project is based on the code for the redux tutorial example
-          starting at:
-          https://redux.js.org/tutorials/fundamentals/part-1-overview
+          This project is based on the this{' '}
+          <a href="https://redux.js.org/tutorials/fundamentals/part-1-overview">
+            redux tutorial example
+          </a>
         </p>
       </Modal>
     </div>
