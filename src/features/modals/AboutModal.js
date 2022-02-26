@@ -24,18 +24,23 @@ function AboutModal() {
     setIsOpen(true)
   }
 
-  function afterOpenModal() {
-    // references are now sync'd and can be accessed.
-    //subtitle.style.color = '#f00';
-  }
+  function afterOpenModal() {}
 
   function closeModal() {
     setIsOpen(false)
+    const myNav = document.getElementById('nav-section')
+    myNav.click()
   }
 
   return (
     <div>
-      <button onClick={openModal}>About This App</button>
+      <button
+        id="btn-open-modal"
+        style={{ borderBottom: '2px solid white' }}
+        onClick={openModal}
+      >
+        About This App
+      </button>
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -63,7 +68,10 @@ function AboutModal() {
         >
           Todos App, a rudux example.
         </h2>
-        <button style={{ width: '7em' }} onClick={closeModal}>
+        <button
+          style={{ width: '7em', backgroundColor: '#1976d2', color: 'white' }}
+          onClick={closeModal}
+        >
           Close
         </button>
         <p>

@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <section>
+        <section id="nav-section">
           <h1>Redux Todos Example</h1>
           {/* <a style={{ color: 'white' }}>About this app</a> */}
           <AboutModal />
