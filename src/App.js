@@ -4,7 +4,7 @@
   The todosSlice and the filtersSlice. These are combined to produce the 
   rootReducer in reducer.js. A redux.store is created in store.js. 
   Filtering for the view on todos is done in TodoList.js. The app achieves
-  persistence of state.todos[] using browser localStorage
+  persistence of state.todos[] using browser localStorage()
  */
 import React from 'react'
 import Header from './features/header/Header'
