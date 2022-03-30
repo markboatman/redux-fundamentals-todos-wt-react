@@ -1,1 +1,1 @@
-Make wider when mobile size
+Make mark all complete a toggle.

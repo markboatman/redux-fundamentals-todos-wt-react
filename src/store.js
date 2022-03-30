@@ -3,7 +3,7 @@ import { composeWithDevTools } from 'redux-devtools-extension'
 import rootReducer from './reducer'
 // importing enhancers that wrap the store.dispatch function.
 import { updateLocalStorageAfterDispatch } from './exampleAddons/enhancers'
-import { print1, print2, print3 } from './exampleAddons/middleware'
+// import { print1, print2, print3 } from './exampleAddons/middleware'
 
 // composeWithDevTools to track redux in browser
 // dev tools
