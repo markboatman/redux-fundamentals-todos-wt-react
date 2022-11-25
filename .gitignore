@@ -18,7 +18,10 @@
 .env.test.local
 .env.production.local
 .firebase
-/editor-practice
+.firebaserc
+firebase.json
+editor-practice
+package.old.json
 
 npm-debug.log*
 yarn-debug.log*

@@ -13,7 +13,7 @@ function AboutModal() {
     setIsOpen(true)
   }
 
-  function afterOpenModal() {}
+  function afterOpenModal() { }
 
   function closeModal() {
     setIsOpen(false)
@@ -23,15 +23,11 @@ function AboutModal() {
 
   return (
     <div>
-<<<<<<< HEAD
-      <button style={{ borderBottom: '2px solid white' }} onClick={openModal}>
-=======
       <button
         id="btn-open-modal"
         style={{ borderBottom: '2px solid white' }}
         onClick={openModal}
       >
->>>>>>> 2a48e2b434b54fac3c041fe216d30eca3f630645
         About This App
       </button>
       <Modal
@@ -57,7 +53,7 @@ function AboutModal() {
         {/* Don't know how or what the original ref= did */}
         <h2
           style={{ textAlign: 'center' }}
-          // ref={(_subtitle) => (subtitle = _subtitle)}
+        // ref={(_subtitle) => (subtitle = _subtitle)}
         >
           Todos App, a rudux example.
         </h2>
@@ -79,11 +75,6 @@ function AboutModal() {
           redux-devtools-extension for browser devtools debugging.
         </p>
         <p>
-<<<<<<< HEAD
-          This project is based on the this{' '}
-          <a href="https://redux.js.org/tutorials/fundamentals/part-1-overview">
-            redux tutorial example
-=======
           This project is based on the code in this{' '}
           <a href="https://redux.js.org/tutorials/fundamentals/part-1-overview">
             redux tutorial example.
@@ -93,7 +84,6 @@ function AboutModal() {
           The code for this (my) version of the app can be accessed{' '}
           <a href="https://github.com/markboatman/redux-fundamentals-todos-wt-react">
             on github.
->>>>>>> 2a48e2b434b54fac3c041fe216d30eca3f630645
           </a>
         </p>
       </Modal>

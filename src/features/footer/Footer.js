@@ -118,7 +118,7 @@ const Footer = () => {
           Clear Completed
         </button>
       </div>
-
+      {/* These child compnents are defined in this file */}
       <RemainingTodos count={todosRemaining} />
       <StatusFilter value={status} onChange={onStatusFilterChange} />
       <ColorFilters value={colors} onChange={onColorFilterChange} />

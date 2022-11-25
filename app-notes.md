@@ -1,3 +1,5 @@
+TODO: Test the app on MacBook then push to github from MacBook Then pull to MacMini. Then reploy on Firebase
+
 This project is based on the code for the redux tutorial example starting at: https://redux.js.org/tutorials/fundamentals/part-1-overview
 
 This is a create-react-app that uses redux, react-redux and the redux-devtools-extension for browser devtools debugging.

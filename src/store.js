@@ -1,3 +1,5 @@
+// I don't remember how this works
+// createStore deprecated but still works
 import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import rootReducer from './reducer'

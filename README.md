@@ -8,7 +8,7 @@ This app uses the libraries: redux, react-redux and the redux-devtools-extension
 
 This example app is a todos app that uses redux to store the state of the todos and the state of the filters. It has two reducers or slices. the todosSlice and the filtersSlice. These are combined to produce the rootReducer in reducer.js. A redux.store is created in store.js. Filtering for the view on todos is done in TodoList.js.
 
-The app uses no backend api. The app state is persisted using browser localStorage.setItem() and localStorage.getItem().
+The app uses NO backend api. The app state is persisted using browser localStorage.setItem() and localStorage.getItem().
 
 ## Start and build scripts.
 
